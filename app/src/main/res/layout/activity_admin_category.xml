@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategoryActivity">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="379dp"
+        android:layout_height="131dp"
+        android:layout_below="@+id/slogan_category"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/computer"
+            android:layout_width="97dp"
+            android:layout_height="80dp"
+            android:src="@drawable/computer" />
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="80dp"
+            android:layout_height="156dp"
+            android:src="@drawable/cam" />
+
+        <ImageView
+            android:id="@+id/cable"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cableicon" />
+
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_width="82dp"
+            android:layout_height="190dp"
+            android:src="@drawable/phone" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_below="@+id/linear1_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/handsfree"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/handsfree" />
+
+        <ImageView
+            android:id="@+id/pen"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/pen" />
+
+        <ImageView
+            android:id="@+id/scanner"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/scan" />
+
+        <ImageView
+            android:id="@+id/tv"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/tvv" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/watch"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/watch" />
+
+        <ImageView
+            android:id="@+id/charger"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:src="@drawable/chargericon" />
+
+        <ImageView
+            android:id="@+id/hairdrier"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hairdier" />
+
+        <ImageView
+            android:id="@+id/mouse"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/mouse" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
